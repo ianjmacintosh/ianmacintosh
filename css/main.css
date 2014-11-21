@@ -99,6 +99,15 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
 }
 
+section:nth-child(odd) h1,
+section:nth-child(odd) h2,
+section:nth-child(odd) h3,
+section:nth-child(odd) h4,
+section:nth-child(odd) h5,
+section:nth-child(odd) h6 {
+    color: #fff;
+}
+
 .big-paragraph {
     font-size: 1.5rem;
     font-weight: 400;
@@ -110,14 +119,16 @@ section {
 }
 
 section:nth-child(even) {
-    color: #000;
-    background: #fff;
+    background: #FFFEFF;
+    color: #1B161A;
 }
 
 section:nth-child(odd) {
-    background: #000;
-    color: #fff;
+    background: #00D2AE;
+    color: #1B161A;
 }
+
+section:nth-child(odd) {
 
 
 /* ==========================================================================
